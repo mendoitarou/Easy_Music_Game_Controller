@@ -115,3 +115,16 @@ Raspberry Pi Pico Hを購入した方は、タッチセンサーだけピンヘ�
 ブレッドボードではなく、基盤を発注しケースに収めて完成！というガイドです。
 
 (現在作成中です。)
+
+
+# 使用したもの
+
+[KiCad](https://www.kicad.org/)
+
+KiCad Raspberry Pi Pico Library ([Datasheets RaspberryPi RP2040](https://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040.pdf))
+
+KiCad TTP223 Touch 1 Module Library ([RoboUlbricht/kicad.lib - Github](https://github.com/RoboUlbricht/kicad.lib))
+
+[fritzing](https://fritzing.org/)
+
+fritzing Raspberry Pi Pico Parts ([Documentation RaspberryPi Pico](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html))

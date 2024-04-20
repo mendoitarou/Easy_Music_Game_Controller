@@ -130,3 +130,11 @@ KiCad TTP223 Touch 1 Module Library ([RoboUlbricht/kicad.lib - Github](https://g
 [fritzing](https://fritzing.org/)
 
 fritzing Raspberry Pi Pico Parts ([Documentation RaspberryPi Pico](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html))
+
+# 表示
+
+## 原神
+「原神」は、上海米哈游綱絡科技股分有限公司(miHoYo)の登録商標または商標です。
+
+## 「ヘブンバーンズレッド」
+©WFS Developed by WRIGHT FLYER STUDIOS ©VISUAL ARTS/Key

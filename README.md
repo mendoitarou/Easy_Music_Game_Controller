@@ -4,15 +4,24 @@ An English version is currently being prepared.
 
 Please wait for a while.
 
-# はじめに
+## はじめに
 これは原神やヘブンバーンズレッドの音ゲーをPCでも安価で快適にプレイするためのツールです。
 
 オープンソースで配布しますので、だれでも自由に作成可能です。
 
-(実際に試作してみましたが.....微妙です...)
+## 注意点
+作り方にて紹介しているタッチセンサーは個体差がかなり生じており、品質の悪いものを使うとタッチしていないのにタッチ判定になるなどの挙動をします。ご注意ください。
 
-# 作り方
-## 必要なもの
+ヘブンバーンズレッドでは、PC用にスマートフォンなどと判定が異なっており、タッチセンサーを用いた操作には適していません。
+
+キーボードでプレイしたほうがプレイしやすいです。
+
+しかし、原神の音ゲーイベントでは十分使えました。
+
+タッチセンサーの個体差に注意すれば十分使えるものと思われます。
+
+## 作り方
+### 必要なもの
 リスト(気軽に作りたい人向け)
 - データ通信が可能なUSBケーブル(1個)(Raspberry Pi Picoに合ったコネクタ形状を選択してください。)
 - Raspberry Pi Pico H(1個)
@@ -40,12 +49,12 @@ Please wait for a while.
 
 (ちゃんと作りたい方は、「基盤発注」まで読み飛ばしてください。)
 
-## はんだ付け
+### はんだ付け
 Raspberry Pi Picoを購入した方は、Raspberry Pi Picoとタッチセンサーにピンヘッダをはんだ付けをします。
 
 Raspberry Pi Pico Hを購入した方は、タッチセンサーだけピンヘッダをはんだ付けをします。
 
-## 配線
+### 配線
 次の回路図を見て配線してください。
 
 (といっても回路図が汚くて見づらいのでわからんという方は下の図は飛ばしてください。)
@@ -72,9 +81,9 @@ Raspberry Pi Pico Hを購入した方は、タッチセンサーだけピンヘ�
 
 (引用元: [Raspberry Pi Documentation - Raspberry Pi Pico and Pico W](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html))
 
-## Raspberry Pi Picoのセットアップ
+### Raspberry Pi Picoのセットアップ
 
-### ファームウェア&プログラムのダウンロード
+#### ファームウェア&プログラムのダウンロード
 まずは、CircuitPythonをダウンロードします。
 
 [CircuitPythonの公式ページ](https://circuitpython.org/board/raspberry_pi_pico/)からファームウェアをダウンロードします。
@@ -91,7 +100,7 @@ Raspberry Pi Pico Hを購入した方は、タッチセンサーだけピンヘ�
 
 次に、このリポジトリの``program``ディレクトリの中にある``main.py``をダウンロードし、どこかに保管しておきます。
 
-### ファームウェア&プログラムの書き込み
+#### ファームウェア&プログラムの書き込み
 ここまで出来たら、Raspberry Pi Picoの``BOOTSEL``ボタンを押しながらPCにUSBケーブルで接続します。
 
 (上の図にもボタンが描かれています。)
@@ -106,20 +115,20 @@ Raspberry Pi Pico Hを購入した方は、タッチセンサーだけピンヘ�
 
 最後に、先ほどダウンロードした``main.py``を``CIRCUITPY``にコピー&ペーストします。
 
-## 動作確認
+### 動作確認
 これで完成です！
 
 メモ帳を開き、タッチセンサーを押してみましょう！
 
 左からA,S,D,J,K,Lが入力されるはずです！
 
-# 上級者向け(ちゃんと作りたい方向け)
+## 上級者向け(ちゃんと作りたい方向け)
 ブレッドボードではなく、基盤を発注しケースに収めて完成！というガイドです。
 
 (現在作成中です。)
 
 
-# 使用したもの
+## 使用したもの
 
 [KiCad](https://www.kicad.org/)
 
@@ -131,10 +140,12 @@ KiCad TTP223 Touch 1 Module Library ([RoboUlbricht/kicad.lib - Github](https://g
 
 fritzing Raspberry Pi Pico Parts ([Documentation RaspberryPi Pico](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html))
 
-# 表示
+## 表示
 
-## 原神
-「原神」は、上海米哈游綱絡科技股分有限公司(miHoYo)の登録商標または商標です。
+### 原神
+「原神」は、上海米哈游綱絡科技股分有限公司(miHoYo)またCOGNOSPHEREの登録商標または商標です。
 
-## 「ヘブンバーンズレッド」
+© COGNOSPHERE. All Rights Reserved.
+
+### 「ヘブンバーンズレッド」
 ©WFS Developed by WRIGHT FLYER STUDIOS ©VISUAL ARTS/Key
